@@ -1,10 +1,12 @@
 namespace ChannelEngine.Web
 {
+    using ChannelEngine.Shared.Client;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using System;
 
     public class Startup
     {
@@ -12,13 +14,22 @@ namespace ChannelEngine.Web
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging();
+
+            services
+                .AddHttpClient<IChannelEngineClient, ChannelEngineClient>("ChannelEngine", client =>
+                {
+                    var channelEngineConfig = Configuration.GetRequiredSection("ChannelEngineConfiguration").Get<ChannelEngineConfiguration>();
+
+                    client.BaseAddress = new Uri(channelEngineConfig.BaseUrl);
+                    client.DefaultRequestHeaders.Add("X-CE-KEY", channelEngineConfig.ApiKey);
+                });
+
             services.AddControllersWithViews();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
