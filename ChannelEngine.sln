@@ -3,9 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FFFFD3C-473A-47BF-95BA-7810E5FBC68C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB33EB96-A0F9-47A9-8959-414C58C92BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngine.CLI", "src\ChannelEngine.CLI\ChannelEngine.CLI.csproj", "{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373} = {3FFFFD3C-473A-47BF-95BA-7810E5FBC68C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72418206-8179-4D1B-8240-CDE9FE5A9AE7}
