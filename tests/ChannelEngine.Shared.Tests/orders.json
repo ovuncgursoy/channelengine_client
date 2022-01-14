@@ -1,0 +1,74 @@
+[
+    {
+        "Id": 1,
+        "Status": "IN_PROGRESS",
+        "Lines": [
+            {
+                "Gtin": "1",
+                "Description": "Product 1",
+                "MerchantProductNo": "1",
+                "Quantity": 2
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "Status": "IN_PROGRESS",
+        "Lines": [
+            {
+                "Gtin": "1",
+                "Description": "Product 1",
+                "MerchantProductNo": "1",
+                "Quantity": 3
+            },
+            {
+                "Gtin": "2",
+                "Description": "Product 2",
+                "MerchantProductNo": "2",
+                "Quantity": 10
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "Status": "IN_PROGRESS",
+        "Lines": [
+            {
+                "Gtin": "1",
+                "Description": "Product 1",
+                "MerchantProductNo": "1",
+                "Quantity": 3
+            },
+            {
+                "Gtin": "3",
+                "Description": "Product 3",
+                "MerchantProductNo": "3",
+                "Quantity": 1
+            },
+            {
+                "Gtin": "4",
+                "Description": "Product 4",
+                "MerchantProductNo": "4",
+                "Quantity": 1
+            },
+            {
+                "Gtin": "5",
+                "Description": "Product 5",
+                "MerchantProductNo": "5",
+                "Quantity": 1
+            },
+            {
+                "Gtin": "6",
+                "Description": "Product 6",
+                "MerchantProductNo": "6",
+                "Quantity": 1
+            },
+            {
+                "Gtin": "7",
+                "Description": "Product 7",
+                "MerchantProductNo": "7",
+                "Quantity": 3
+            }
+        ]
+    }
+]
