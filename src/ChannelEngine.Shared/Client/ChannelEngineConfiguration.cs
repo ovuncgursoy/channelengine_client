@@ -1,4 +1,4 @@
-﻿namespace ChannelEngine.CLI
+﻿namespace ChannelEngine.Shared.Client
 {
     public class ChannelEngineConfiguration
     {
