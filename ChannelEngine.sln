@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChannelEngine.CLI", "src\Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChannelEngine.Shared", "src\ChannelEngine.Shared\ChannelEngine.Shared.csproj", "{5B5639F8-6969-48BE-830D-F3B6BE78C904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngine.Web", "ChannelEngine.Web\ChannelEngine.Web.csproj", "{0AD6D6CF-B8AD-4882-AAEA-2F126B31ECE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngine.Web", "src\ChannelEngine.Web\ChannelEngine.Web.csproj", "{0AD6D6CF-B8AD-4882-AAEA-2F126B31ECE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
