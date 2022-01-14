@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB33EB96
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngine.CLI", "src\ChannelEngine.CLI\ChannelEngine.CLI.csproj", "{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngine.Shared", "src\ChannelEngine.Shared\ChannelEngine.Shared.csproj", "{5B5639F8-6969-48BE-830D-F3B6BE78C904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5639F8-6969-48BE-830D-F3B6BE78C904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5639F8-6969-48BE-830D-F3B6BE78C904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5639F8-6969-48BE-830D-F3B6BE78C904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5639F8-6969-48BE-830D-F3B6BE78C904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A1ADC03C-2F92-4D9B-A69D-1CE1788F5373} = {3FFFFD3C-473A-47BF-95BA-7810E5FBC68C}
+		{5B5639F8-6969-48BE-830D-F3B6BE78C904} = {3FFFFD3C-473A-47BF-95BA-7810E5FBC68C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72418206-8179-4D1B-8240-CDE9FE5A9AE7}
