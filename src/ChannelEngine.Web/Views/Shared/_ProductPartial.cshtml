@@ -1,0 +1,13 @@
+﻿@using ChannelEngine.Shared.Client.Types
+
+@model Product
+
+<tr>
+	<td>@Model.GTIN</td>
+	<td>@Model.ProductNo</td>
+	<td>@Model.Name</td>
+	<td>@Model.Quantity</td>
+	<td>
+		<a class="update-stock" href="" data-product="@Model.ProductNo" data-quantity="25">Update Stock</a>
+	</td>
+</tr>
