@@ -22,7 +22,7 @@
             return View(new OrdersViewModel()
             {
                 Orders = orders.ToList(),
-                Products = orders.TopNProductsSold(-5).ToList()
+                Products = orders.TopNProductsSold(5).ToList()
             });
         }
 
